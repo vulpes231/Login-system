@@ -112,6 +112,11 @@ form .password_toggle {
     cursor: pointer;
 }
 
+form .error {
+    color: red;
+    padding: 0.5rem;
+}
+
 @media screen and (min-width: 768px) {
 
     main form {

@@ -13,7 +13,8 @@
     <form action="">
         <div class="row poy">
             <label for="">Username</label>
-            <input type="text" name="username" placeholder="enter username" required >
+            <input type="text" name="username" id="username" placeholder="enter username" required >
+            <span class="user_error error"></span>
             <span class="material-symbols-outlined user_icon">
                 person
             </span>
@@ -21,6 +22,7 @@
         <div class="row pos">
             <label for="">Password</label>
             <input type="password" name="password" id="password" placeholder="enter password" required >
+            <span class="pass_error error"></span>
             <span class="password_toggle">
                 
             </span>
@@ -34,7 +36,7 @@
                 <small>Forgot password?</small>
             </a>
         </div>
-        <button type="button">Login</button>
+        <button type="button" onclick="handleSubmit()">Login</button>
     </form>
    </main>
     
