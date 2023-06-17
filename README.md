@@ -1,6 +1,6 @@
 # Password Toggler
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/vulpes231/password-toggler/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/vulpes231/password-toggle/blob/main/LICENSE)
 
 ## Description
 
@@ -25,7 +25,7 @@ To use the Password Toggler feature in your own projects, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/vulpes231/password-toggler.git
+   git clone https://github.com/vulpes231/password-toggle.git
 
 
 Feel free to customize the styles and behavior to match your website's design.
